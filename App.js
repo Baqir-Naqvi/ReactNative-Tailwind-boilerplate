@@ -8,11 +8,9 @@ const Stack = createNativeStackNavigator();
 function App() {
   return (
     <NavigationContainer>
-        <ContextProvider>
           <Stack.Navigator>
           <Stack.Screen name="Home" component={HomeScreen} />
           </Stack.Navigator>
-        </ContextProvider>
     </NavigationContainer>
   );
 }
